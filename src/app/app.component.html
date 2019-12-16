@@ -1,0 +1,6 @@
+<app-lifecycle-hooks [a]="inputValue" [b]="inputValue" *ngIf="showComponent"></app-lifecycle-hooks>
+
+<input [(ngModel)]="inputValue">
+
+<button (click)="showComponent = !showComponent">Show / Hide Component</button>
+
